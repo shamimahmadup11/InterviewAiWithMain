@@ -32,6 +32,7 @@ Technologies Used
 HTML
 CSS
 JavaScript
+tailwind
 Contributing
 Contributions are welcome! Feel free to submit bug reports, feature requests, or pull requests. Please follow the code of conduct.
 
