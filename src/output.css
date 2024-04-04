@@ -34,10 +34,13 @@ body{
   top:0;
   box-shadow: 5px 5px 5px rgb(23, 23, 57);
 }
+.navbarDiv>ul>li{
+  margin-top: 10px;
+}
 .navbarDiv>ul>img{
   border-radius: 50%;
 }
-.navbarDiv>img:hover{
+.navbarDiv>ul>img:hover{
   transform: scale(1.05);
   transition: all 0.3s ease-in-out;
   cursor: pointer;
