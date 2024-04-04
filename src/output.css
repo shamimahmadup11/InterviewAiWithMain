@@ -116,7 +116,6 @@ body{
   justify-content: center;
   align-items: center;
   gap: 50px;
-
 }
 .section>h1{
   font-size: 40px;
@@ -141,7 +140,6 @@ gap: 100px;
 align-items: center;
 justify-content: center;
 flex-wrap: wrap;
-
 }
 .tamplates{
   margin-top: 30px;
@@ -212,6 +210,43 @@ flex-wrap: wrap;
 .footer3>h1{
   font-size: 40px;
   font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+
+  /* .navbarDiv {
+    height: auto;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .navbarDiv > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbarDiv > ul > li {
+    margin: 5px 0;
+  } */
+
+  .section,
+  .section01,
+  .tamplates,
+  .footer {
+    height: auto;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer1,
+  .footer2,
+  .footer3 {
+    margin-top: 20px;
+  }
 }
 /* body{
   background-color: rgb(78, 76, 76);
