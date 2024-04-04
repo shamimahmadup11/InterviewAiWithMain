@@ -212,23 +212,7 @@ flex-wrap: wrap;
   font-weight: bold;
 }
 
-@media screen and (max-width: 768px) {
-
-  /* .navbarDiv {
-    height: auto;
-    flex-direction: column;
-    padding: 10px;
-  }
-
-  .navbarDiv > ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .navbarDiv > ul > li {
-    margin: 5px 0;
-  } */
+@media screen and (max-width: 800px) {
 
   .section,
   .section01,
@@ -247,6 +231,7 @@ flex-wrap: wrap;
   .footer3 {
     margin-top: 20px;
   }
+
 }
 /* body{
   background-color: rgb(78, 76, 76);
@@ -320,7 +305,7 @@ body {
 /* You can adjust the animation duration, timing function, etc., as needed */
 /* #moving-heading {
   animation: moveRight 10s linear infinite; /* Change duration (10s) as needed */
-} */
+*/
 hr {
   height: 0;
   /* 1 */
