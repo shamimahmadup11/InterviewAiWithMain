@@ -13,14 +13,14 @@ function callingJobs() {
 
     // window.location.href = `../resume/jobs.html`;
    
-    const url = `https://jsearch.p.rapidapi.com/search?query=${searchParam}&page=1&num_pages=1`;
-    const options = {
-        method: 'GET',
-        headers: {
-            'X-RapidAPI-Key': '5fb769ce55msh7a0078af2e4d4b6p107e23jsn93d400fe3a10',
-            'X-RapidAPI-Host': 'jsearch.p.rapidapi.com'
-        }
-    };
+    const url = `https://jsearch.p.rapidapi.com/search?query=${searchParam}%20developer%20in%20Texas%2C%20USA&page=1&num_pages=1`;
+const options = {
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': 'eb214cf97fmshf55517a63684c01p1f053bjsnbe513640c06a',
+		'X-RapidAPI-Host': 'jsearch.p.rapidapi.com'
+	}
+};
 
     async function fetchJobs() {
         try {
