@@ -1,6 +1,6 @@
 InterviewAI
 InterviewAI is a web application designed to streamline the process of creating resumes and providing tailored job and project suggestions based on user skills.
-
+hostedLink:https://shamimahmadup11.github.io/InterviewAiWithMain/src/index.html
 Features
 Resume Creation
 Users can input their personal information, educational background, work experience, and  skills into the provided forms. The application then generates a formatted resume based on this data.
